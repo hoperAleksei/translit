@@ -1,3 +1,5 @@
 #pragma once
+#include <cstddef>
 
-float* findRoots(float a, float b, float c);
+char* translit(char *inp, size_t length);
+void strAdd(char *str1, char *str2);
